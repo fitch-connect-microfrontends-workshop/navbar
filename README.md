@@ -21,4 +21,6 @@ Steps to recreate this repo.
 1. Implement a component or two
 1. Copy `.circleci/config.yml` file into your project. [Link](/.circleci/config.yml)
 1. Git commit and push
-1. Go to https://circleci.com/gh/fitch-connect-microfrontends-workshop/workflows and find the CI pipeline for your project
+1. Go to https://circleci.com/gh/fitch-connect-microfrontends-workshop/workflows and find the CI pipeline for your project. Click on the top workflow to see whether deployment succeeds.
+1. After deployment succeeds, go to https://fc.microfrontends.app/fitch.importmap and check that your microfrontend exists in the import map. Click on the URL for the javascript file and verify that it is downloadable.
+1. Go to https://fc.microfrontends.app and click on the yellow / pink rectangle at the bottom right. Clear all overrides and refresh the page. Verify that your app is now working as a deployed app!!
