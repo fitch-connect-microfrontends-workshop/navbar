@@ -10,5 +10,6 @@ module.exports = {
       sockHost: "localhost",
       sockPort: "8080"
     }
-  }
+  },
+  filenameHashing: false
 };
