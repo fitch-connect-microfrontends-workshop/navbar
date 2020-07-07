@@ -16,6 +16,7 @@
           <b-nav-item to="/dmsspa">dms micro-frontend</b-nav-item>
           <b-nav-item to="/cool-app">Tyler's cool app</b-nav-item>
           <b-nav-item to="/raysa-first-app">Raysa's App</b-nav-item>
+          <b-nav-item to="/manu-mfe">Manu's MFE </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
