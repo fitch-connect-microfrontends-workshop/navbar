@@ -18,3 +18,7 @@ Steps to recreate this repo.
 1. Click on the yellowish rectangle at the bottom right
 1. Add a new module called `@fc/<your-microfrontend-repo-name>`. The URL is https://localhost:8080/js/app.js
 1. Refresh the page. Click on the nav link to go to your microfrontend. You should now see the hello world vue page!
+1. Implement a component or two
+1. Copy `.circleci/config.yml` file into your project. [Link](/.circleci/config.yml)
+1. Git commit and push
+1. 
