@@ -8,7 +8,7 @@ Steps to recreate this repo.
 
 1. Sign up for Github.
 1. Provide Github username to Joel (or whoever is granting organization access) to become an org admin
-1. Add your new microfrontend to [this HTML file](https://github.com/fitch-connect-microfrontends-workshop/root-config/blob/e26ffdd4d7380b2a23d3317f291879640b821d1f/src/index.ejs#L70).
+1. Add your new microfrontend to [this HTML file](https://github.com/fitch-connect-microfrontends-workshop/root-config/blob/master/src/index.ejs).
 1. Add a new nav link to your microfrontend to [this file](https://github.com/fitch-connect-microfrontends-workshop/navbar/blob/master/src/App.vue).
 1. Create a new repo by going to https://github.com/fitch-connect-microfrontends-workshop and clicking on "New". Add a default readme and license. Your gitignore choice doesn't matter.
 1. Clone the repo.
