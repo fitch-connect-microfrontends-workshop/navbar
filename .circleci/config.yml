@@ -63,7 +63,7 @@ jobs:
           echo "Authenticating with Google"
           gcloud auth activate-service-account --key-file google-application-credentials.json
           echo "Commit sha is $CIRCLE_SHA1. This will be the directory name under $CIRCLE_PROJECT_REPONAME in Cloud Storage."
-          echo "Uploading navbar module"
+          echo "Uploading artifacts to CDN"
           gsutil cp -rZ dist gs://$BUCKET_NAME/$CIRCLE_PROJECT_REPONAME/$CIRCLE_SHA1
           echo "Updating import map"
           echo '{ "service":"@fc/'"$CIRCLE_PROJECT_REPONAME"'","url":"https://'"$CF_PUBLIC_URL"'/'"$CIRCLE_PROJECT_REPONAME"'/'"$CIRCLE_SHA1"'/js/app.js" }'
