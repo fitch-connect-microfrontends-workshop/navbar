@@ -21,4 +21,4 @@ Steps to recreate this repo.
 1. Implement a component or two
 1. Copy `.circleci/config.yml` file into your project. [Link](/.circleci/config.yml)
 1. Git commit and push
-1. 
+1. Go to https://circleci.com/gh/fitch-connect-microfrontends-workshop/workflows and find the CI pipeline for your project
