@@ -10,6 +10,7 @@
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/vince">Vince's Movie Recommendations</b-nav-item>
           <b-nav-item to="/rashidmalav">Rashid and Malavs List</b-nav-item>
+          <b-nav-item to="/matt">Matt's micro-frontend</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
