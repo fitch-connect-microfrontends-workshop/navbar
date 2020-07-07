@@ -1,5 +1,7 @@
 # @fc/navbar
 
+[CI Pipelines](https://app.circleci.com/pipelines/github/fitch-connect-microfrontends-workshop/navbar)
+
 ## Creating a new microfrontend
 
 Steps to recreate this repo.
